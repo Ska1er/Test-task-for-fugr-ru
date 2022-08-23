@@ -1,0 +1,7 @@
+{
+    "database": {
+        "driver" : "mysql:host=localhost;dbname=api",
+        "user" : "root",
+        "password": "admin" 
+    }
+}
