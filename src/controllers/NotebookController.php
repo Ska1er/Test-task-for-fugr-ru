@@ -46,7 +46,7 @@ class NotebookController extends ApiController {
      *      )
      *  ),
      * @OA\Response(response="201", description="Created"),
-     * @OA\Response(response="404", description="Not found")
+     * @OA\Response(response="403", description="Validation error")
      * )
      */
     public function add(array $params, $image = null)
